@@ -1,63 +1,103 @@
 # ClipBank
 
-**ClipBank** یک Clipboard Manager سریع و قابل تنظیم برای Windows است که برای مدیریت بهتر متن‌ها، تصاویر، مسیر فایل‌ها و چند بانک مستقل Clipboard طراحی شده است.
+<p align="center">
+  <strong>Clipboard manager for Windows — سریع، سبک و قابل تنظیم</strong>
+</p>
 
-> Current release: **v1.1.38**
-
-## امکانات اصلی
-
-- چند بانک مستقل Clipboard با امکان جابه‌جایی سریع
-- نمایش «کپی‌های اخیر» با تعداد قابل تنظیم
-- پشتیبانی از متن، تصویر و مسیر فایل
-- پیش‌نمایش Hover برای متن و تصویر
-- میانبرهای سراسری قابل تنظیم
-- پنجره Tray برای دسترسی سریع به بانک‌ها و تاریخچه
-- Quick Paste
-- Favorites / Pinned lists
-- Most Used list
-- تم روشن و تیره با پالت مرکزی
-- پشتیبانی مناسب از متن فارسی و تقویم جلالی
-- Preview تصاویر با Zoom و Pan
-- Installer استاندارد Windows با Upgrade / Repair / Modify / Uninstall
-
-## سیستم‌عامل
-
-- Windows 10 / Windows 11
-- معماری x64
-
-نسخه‌های منتشرشده به‌صورت **Self-contained** ساخته می‌شوند؛ بنابراین در حالت عادی نیازی به نصب جداگانه .NET Runtime نیست.
-
-## نصب
-
-1. به بخش **Releases** همین Repository بروید.
-2. آخرین نسخه ClipBank را باز کنید.
-3. فایل Setup نسخه موردنظر را دانلود و اجرا کنید.
-4. مراحل نصب را تا پایان دنبال کنید.
-
-جزئیات بیشتر در [INSTALLATION.md](INSTALLATION.md) آمده است.
-
-## ارتقا نسخه
-
-برای نصب نسخه جدید روی نسخه قبلی، Setup جدید را اجرا کنید. Installer نسخه نصب‌شده را شناسایی کرده و فرآیند Upgrade را انجام می‌دهد.
-
-## گزارش مشکل
-
-اگر با خطا یا رفتار غیرمنتظره‌ای روبه‌رو شدید، از بخش **Issues** گزارش ثبت کنید و در صورت امکان این موارد را بنویسید:
-
-- نسخه ClipBank
-- نسخه Windows
-- مراحل بازتولید مشکل
-- تصویر خطا
-- رفتار مورد انتظار
-
-## تغییرات نسخه‌ها
-
-فهرست تغییرات در [CHANGELOG.md](CHANGELOG.md) قرار دارد.
-
-## وضعیت پروژه
-
-ClipBank در حال توسعه فعال است و نسخه‌های جدید با تمرکز بر پایداری، سرعت و تجربه کاربری منتشر می‌شوند.
+<p align="center">
+  <img alt="Release" src="https://img.shields.io/github/v/release/preemax/ClipBank">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white">
+  <img alt="Architecture" src="https://img.shields.io/badge/Architecture-x64-lightgrey">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/preemax/ClipBank/total">
+</p>
 
 ---
 
-**PREEMAX / ClipBank**
+**ClipBank** یک Clipboard Manager برای Windows است که مدیریت متن‌ها، تصاویر، مسیر فایل‌ها و چند بانک مستقل Clipboard را سریع‌تر و منظم‌تر می‌کند.
+
+## ⬇️ دانلود
+
+### آخرین نسخه: v1.1.38
+
+**[دانلود ClipBank-Setup-v1.1.38.exe](https://github.com/preemax/ClipBank/releases/download/v1.1.38/ClipBank-Setup-v1.1.38.exe)**
+
+یا صفحه کامل انتشارها را باز کنید:
+
+**[GitHub Releases](https://github.com/preemax/ClipBank/releases/latest)**
+
+| مشخصات فایل | مقدار |
+|---|---|
+| Version | v1.1.38 |
+| Platform | Windows 10 / 11 |
+| Architecture | x64 |
+| Package | Self-contained |
+| Installer | Windows Setup |
+| SHA-256 | `e5432694ab5b667686c5e31ee3335bd18fd31ba1a2c0ca1b0d51e0ce6806c454` |
+
+> نسخه فعلی Self-contained است؛ در حالت عادی نیازی به نصب جداگانه .NET Runtime ندارد.
+
+## ✨ امکانات
+
+| قابلیت | توضیح |
+|---|---|
+| Clipboard Banks | چند بانک مستقل برای نگهداری و دسترسی سریع به کپی‌ها |
+| Recent Copies | نمایش آخرین کپی‌ها با تعداد قابل تنظیم از 10 تا 500 |
+| Tray Popup | دسترسی سریع از System Tray و جابه‌جایی صفحه‌ای بین بانک‌ها |
+| Text / Image / File | پشتیبانی از متن، تصویر و مسیر فایل |
+| Hover Preview | پیش‌نمایش محدود و سریع متن و تصویر |
+| Quick Paste | Paste سریع پس از انتخاب آیتم |
+| Favorites | لیست‌های موردعلاقه و Pin شده |
+| Most Used | دسترسی به آیتم‌های پرکاربرد |
+| Global Hotkeys | میانبرهای سراسری قابل تنظیم |
+| Dark / Light | تم روشن و تیره با پالت مرکزی |
+| Persian UI Support | پشتیبانی مناسب از متن فارسی و تقویم جلالی |
+| Image Preview | Zoom، Pan و پیش‌نمایش تصویر |
+| Standard Installer | Upgrade / Repair / Modify / Uninstall |
+
+## 🧭 Tray
+
+با کلیک روی آیکن ClipBank در System Tray، صفحه‌های Tray با فلش‌های Header به‌صورت چرخه‌ای جابه‌جا می‌شوند:
+
+`Bank 1 → Bank 2 → ... → Recent Copies → Edge Shortcuts → Bank 1`
+
+در هر لحظه فقط یک صفحه نمایش داده می‌شود.
+
+## 🛠 نصب و ارتقا
+
+برای نصب تازه یا Upgrade نسخه قبلی، Setup جدید را اجرا کنید. Installer نسخه موجود را شناسایی می‌کند و مسیر استاندارد Upgrade را انجام می‌دهد.
+
+راهنمای کامل: **[INSTALLATION.md](INSTALLATION.md)**
+
+## 🧾 تغییرات نسخه‌ها
+
+تغییرات نسخه‌های منتشرشده در **[CHANGELOG.md](CHANGELOG.md)** ثبت می‌شود.
+
+## 🐞 گزارش خطا و پیشنهاد
+
+- **[ثبت Bug](https://github.com/preemax/ClipBank/issues/new?template=bug_report.md)**
+- **[ثبت پیشنهاد قابلیت](https://github.com/preemax/ClipBank/issues/new?template=feature_request.md)**
+- راهنمای پشتیبانی: **[SUPPORT.md](SUPPORT.md)**
+
+هنگام گزارش خطا، نسخه ClipBank، نسخه Windows، مراحل بازتولید و در صورت امکان Screenshot را اضافه کنید.
+
+## 🔒 بررسی فایل دانلودی
+
+برای بررسی SHA-256 فایل در PowerShell:
+
+```powershell
+Get-FileHash .\ClipBank-Setup-v1.1.38.exe -Algorithm SHA256
+```
+
+مقدار خروجی نسخه v1.1.38 باید برابر باشد با:
+
+```text
+e5432694ab5b667686c5e31ee3335bd18fd31ba1a2c0ca1b0d51e0ce6806c454
+```
+
+## ℹ️ درباره Repository
+
+این Repository برای **انتشار نسخه‌های رسمی، مستندات، Changelog و دریافت گزارش کاربران** استفاده می‌شود. سورس برنامه در حال حاضر در این Repository منتشر نشده است.
+
+---
+
+<p align="center"><strong>PREEMAX / ClipBank</strong></p>
