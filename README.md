@@ -1,5 +1,7 @@
 # ClipBank
 
+[English README](README_EN.md) · **فارسی**
+
 <p align="center">
   <strong>Clipboard manager for Windows — سریع، سبک و قابل تنظیم</strong>
 </p>
