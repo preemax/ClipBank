@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download latest ClipBank
+    url: https://github.com/preemax/ClipBank/releases/latest
+    about: دریافت آخرین نسخه رسمی ClipBank
+  - name: Installation guide
+    url: https://github.com/preemax/ClipBank/blob/main/INSTALLATION.md
+    about: راهنمای نصب، ارتقا و Repair
